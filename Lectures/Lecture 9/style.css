@@ -1,0 +1,22 @@
+.status-dot {
+    font-size: 2em; /* Makes the dot larger */
+    line-height: 1em;
+    display: inline-block;
+}
+
+.green-blink {
+    color: green;
+    /* Define the blinking animation */
+    animation: blinkMe 2s linear infinite;
+}
+
+/* Keyframes define the animation sequence */
+@keyframes blinkMe {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+.red {
+    color: red;
+}
